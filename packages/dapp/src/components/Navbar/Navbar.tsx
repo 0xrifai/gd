@@ -20,7 +20,7 @@ const Navbar = () => {
       <NavbarBrandContainer onClick={handleClick}>
         <BrandLogo isConnected={!!account.address} theme={theme} />
       </NavbarBrandContainer>
-      <NavbarTabsContainer />
+      {/* <NavbarTabsContainer /> */}
       <NavbarManagement />
     </NavbarContainer>
   );
